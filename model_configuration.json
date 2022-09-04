@@ -1,0 +1,46 @@
+{
+    "models": [
+        {
+            "name": "RandomForest",
+            "class": "RandomForestRegressor",
+            "module": "sklearn.ensemble",
+            "parameters": {},
+            "model_file_name": "random_forest.joblib"
+        },
+        {
+            "name": "ExtraTree",
+            "class": "ExtraTreesRegressor",
+            "module": "sklearn.ensemble",
+            "parameters": {},
+            "model_file_name": "extra_tree.joblib"
+        },
+        {
+            "name": "GradientBoosting",
+            "class": "GradientBoostingRegressor",
+            "module": "sklearn.ensemble",
+            "parameters": {},
+            "model_file_name": "gradient_boosting.joblib"
+        },
+        {
+            "name": "SVR",
+            "class": "SVR",
+            "module": "sklearn.svm",
+            "parameters": {},
+            "model_file_name": "svr.joblib"
+        },
+        {
+            "name": "Lasso",
+            "class": "Lasso",
+            "module": "sklearn.linear_model",
+            "parameters": {},
+            "model_file_name": "lasso.joblib"
+        },
+        {
+            "name": "Ridge",
+            "class": "Ridge",
+            "module": "sklearn.linear_model",
+            "parameters": {},
+            "model_file_name": "ridge.joblib"
+        }
+    ]
+}
